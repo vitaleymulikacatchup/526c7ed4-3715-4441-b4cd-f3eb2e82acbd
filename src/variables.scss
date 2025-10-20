@@ -1,0 +1,104 @@
+/* ============================================ */
+/* CSS/SCSS Variables Extracted from Source */
+/* Auto-generated from website cloning */
+/* ============================================ */
+
+/* ============================================ */
+/* CSS Custom Properties (use with var(--name)) */
+/* ALL CSS variables must be inside :root block */
+/* ============================================ */
+:root {
+  /* Colors */
+  --r-localnav-text-zoom-factor: 1;
+  --sk-focus-color: #0071e3;
+  --r-globalnav-color: rgba(0, 0, 0, .8);
+  --r-globalnav-color-secondary: #333336;
+  --r-globalnav-color-hover: #000000;
+  --r-globalnav-submenu-header-color: rgb(134, 134, 139);
+  --r-globalnav-submenu-header-hover-color: rgb(110, 110, 115);
+  --r-globalnav-search-input-placeholder-color: rgb(110, 110, 115);
+  --r-globalnav-search-input-value-color: #333336;
+  --r-globalnav-search-list-header-color: rgb(110, 110, 115);
+  --r-globalnav-search-list-item-color: #333336;
+  --r-globalnav-search-list-item-hover-color: #000000;
+  --r-globalnav-search-list-item-nonsearchterm-color: rgb(110, 110, 115);
+  --r-globalnav-search-list-item-searchterm-color: #333336;
+  --globalmessage-segment-text-color: rgba(255, 255, 255, .92);
+  --globalmessage-segment-border-color: rgba(255, 255, 255, .4);
+  --r-globalnav-badge-text-color: rgb(0, 0, 0);
+  --progress-indicator-curtain-color: rgba(255, 255, 255, .48);
+  --progress-indicator-color: rgba(255, 255, 255, .8);
+  --sk-button-color: rgb(255, 255, 255);
+  --sk-button-color-hover: var(--sk-button-color);
+  --sk-button-border-color: transparent;
+  --sk-button-border-radius: 8px;
+  --sk-button-border-width: 1px;
+  --gf-focus-color: var(--sk-focus-color, #0071E3);
+  --gf-focus-color-alt: rgb(255, 255, 255);
+  --buystrip-border-color: rgba(0, 0, 0, 0.16);
+  --buystrip-text-color: rgba(0, 0, 0, 0.88);
+  --buystrip-text-secondary-color: rgba(0, 0, 0, 0.56);
+  --buystrip-link-color: rgb(0, 102, 204);
+  --footer-border-color: rgba(0, 0, 0, 0.16);
+  --footer-text-color: rgba(0, 0, 0, 0.56);
+  --footer-link-color: rgba(0, 0, 0, 0.72);
+  --footer-pipe-color: rgba(0, 0, 0, 0.48);
+  --footer-directory-title-color: rgba(0, 0, 0, 0.88);
+  --footer-directory-title-color-hover: #000;
+  --r-localnav-menu-link-color: rgb(0, 0, 0);
+  --r-localnav-title-link-color: rgb(0, 0, 0);
+  --r-localnav-title-subhead-color: rgb(0, 0, 0);
+  --r-localnav-background: rgba(250, 250, 252, 0.8);
+  --sk-link-disabled-opacity: .36;
+  --r-globalnav-background-opened: #fafafc;
+  --r-localnav-actions-padding-top: calc(18px * var(--r-localnav-text-zoom-factor));
+  --r-localnav-margin-bottom: calc(-1 * var(--r-localnav-height));
+  --r-localnav-margin-top: var(--r-localnav-gn-height);
+  --r-localnav-content-padding: 16px;
+  --progress-indicator-size: 15px;
+  --modal-overlay-background: rgb(255, 255, 255);
+  --modal-close-background: rgb(232, 232, 237);
+  --modal-close-background-hover: #37373a;
+  --modal-close-background-active: #2f2f32;
+  --r-globalnav-flyout-spacing: 88px;
+  --sk-button-margin-horizontal: 9px;
+  --sk-button-margin-vertical: 9px;
+  --sk-button-padding-horizontal: 16px;
+  --sk-button-padding-vertical: 9px;
+  --buystrip-content-padding: 22px;
+  --buystrip-items-padding-bottom: 56px;
+  
+  /* Sizes */
+  --r-globalnav-height: 44px;
+  --r-localnav-height: calc(52px * var(--r-localnav-text-zoom-factor));
+  --r-localnav-stacked-height: calc(63px * var(--r-localnav-text-zoom-factor));
+  --r-localnav-actions-padding-start: max(16px, var(--r-localnav-safe-area-inset-start));
+  --r-localnav-actions-padding-end: max(16px, var(--r-localnav-safe-area-inset-end));
+  --r-globalnav-flyout-close-delay: .12s;
+  --r-localnav-viewport-small-max-width: viewport-get-property-for("ac-localnav:small", max-width);
+  --r-localnav-viewport-small-min-width: viewport-get-property-for("ac-localnav:small", min-width);
+  --r-localnav-viewport-large-query: min-width(1024px);
+  --r-localnav-viewport-medium-query: min-width(834px);
+  --r-localnav-viewport-medium-max-width: viewport-get-property-for("ac-localnav:medium", max-width);
+  --r-localnav-viewport-large-min-width: viewport-get-property-for("ac-localnav:large", min-width);
+  
+  /* Typography */
+  --r-globalnav-font-size: 17px;
+  --fontSize: 80px;
+  --gutter-color: #fff;
+  --localnav-title-vertical-offset: 15px;
+  --modal-close-button-size: 44px; 
+}
+
+/* ============================================ */
+/* Usage Guide */
+/* ============================================ */
+
+/* CSS Custom Properties (--var-name) */
+/* Use: color: var(--primary-color); */
+
+/* SCSS Variables ($var-name) */
+/* Use: color: $primary-color; */
+
+/* You can also use these in your Tailwind config */
+/* by importing this file or referencing the values */
